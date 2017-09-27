@@ -62,4 +62,11 @@ attr_reader :species
     end
   end
 
+  def sell_pets
+    self.pets[:fishes, :cats, :dogs].each do |a|
+      a.mood = "nervous"
+    end
+    self.pets.clear
+  end
+
 end
