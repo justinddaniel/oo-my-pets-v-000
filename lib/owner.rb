@@ -16,5 +16,9 @@ attr_accessor :name
     @@all.clear
   end
 
+  def self.count
+    @@all.length
+  end
+
 
 end
