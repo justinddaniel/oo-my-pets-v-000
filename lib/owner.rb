@@ -21,6 +21,11 @@ attr_reader :species
     @@all.length
   end
 
+  def say_species
+    instance_species = self.species
+    "I am a #{instance_species}."
+  end
+
 
 
 end
