@@ -39,4 +39,9 @@ attr_reader :species
     self.pets[:cats] << new_cat
   end
 
+  def buy_dog(cat_dog)
+    new_dog = Dog.new(dog_name)
+    self.pets[:dogs] << new_dog
+  end
+
 end
