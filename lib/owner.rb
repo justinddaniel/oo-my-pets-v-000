@@ -50,4 +50,10 @@ attr_reader :species
     end
   end
 
+  def play_with_cats
+    self.pets[:cats].each do |kittie|
+      kittie.mood = "happy"
+    end
+  end
+
 end
