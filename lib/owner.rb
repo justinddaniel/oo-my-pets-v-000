@@ -4,7 +4,7 @@ attr_accessor :species
 
 @@all = []
 
-  def initialize(species)
+  def initialize(species = "human")
     @@all << self
   end
 
