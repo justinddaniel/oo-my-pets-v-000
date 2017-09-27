@@ -1,10 +1,10 @@
 class Owner
 
-attr_accessor :name
+attr_accessor :species
 
 @@all = []
 
-  def initialize(name)
+  def initialize(species)
     @@all << self
   end
 
@@ -19,6 +19,7 @@ attr_accessor :name
   def self.count
     @@all.length
   end
+
 
 
 end
