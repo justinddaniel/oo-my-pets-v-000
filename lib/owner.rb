@@ -6,6 +6,7 @@ attr_accessor :species
 
   def initialize(species = "human")
     @@all << self
+    @species = species
   end
 
   def self.all
