@@ -33,7 +33,10 @@ attr_reader :species
     new_fish = Fish.new(fish_name)
     self.pets[:fishes] << new_fish
   end
-  
 
+  def buy_cat(cat_name)
+    new_cat = Cat.new(cat_name)
+    self.pets[:cats] << new_cat
+  end
 
 end
