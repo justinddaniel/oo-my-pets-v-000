@@ -63,10 +63,11 @@ attr_reader :species
   end
 
   def sell_pets
-    self.pets.values_at(:dogs, :fishes, :cats).each do |a|
-      a.mood = "nervous"
+    self.pets.each do |keys, pets|
+      values.each do |p|
+        p.mood = "nervous"
+      end
     end
-    self.pets.clear
   end
 
 end
