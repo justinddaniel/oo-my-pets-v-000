@@ -75,7 +75,7 @@ attr_reader :species
     fish_n = self.pets[:fishes].length
     cat_n = self.pets[:cats].length
     dogs_n =self.pets[:dogs].length
-    "I have #{fish_n} fish, #{dogs_n} dog(s), and #{cat_n} cats."
+    "I have #{fish_n} fish, #{dogs_n} dog(s), and #{cat_n} cat(s)."
   end
 
 end
