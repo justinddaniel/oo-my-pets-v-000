@@ -72,9 +72,9 @@ attr_reader :species
   end
 
   def list_pets
-    fish_n = self.pets(:fishes).length
-    cat_n = self.pets(:cats).length
-    dogs_n =self.pets(:dogs).length
+    fish_n = self.pets[:fishes].length
+    cat_n = self.pets[:cats].length
+    dogs_n =self.pets[:dogs].length
     "I have #{fish_n} fish, #{dogs_n} dog(s), and #{cat_n} cats."
   end
 
