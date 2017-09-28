@@ -68,6 +68,7 @@ attr_reader :species
         p.mood = "nervous"
       end
     end
+    self.pets.clear
   end
 
 end
